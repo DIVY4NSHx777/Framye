@@ -2,7 +2,7 @@ import { Link } from "react-router"
 import { ArrowRight } from "lucide-react"
 export default function Hero() {
   return (
-    <div className="flex-1 flex flex-col items-center justify-center mt-10 gap-4">
+    <div className="flex-1 flex flex-col items-center justify-center mt-10 gap-4 ">
 
       <Link
         to="/login"
@@ -15,7 +15,7 @@ export default function Hero() {
           className="h-4 w-4 transition-transform duration-300 ease-in-out group-hover:translate-x-2"
         />
       </Link>
-      <h1 className="text-6xl font-orbit mt-6">
+      <h1 className="text-6xl font-orbit mt-6 bg-frosted-silver bg-clip-text text-transparent p-3">
         From Thought to Reality
       </h1>
       <p className="text-muted-foreground font-space text-lg w-1/2 text-center">

@@ -6,12 +6,12 @@ export default function Navbar() {
     const isAuthenticated = false;
 
     return (
-        <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur">
-            <nav className="mx-6 flex h-16 items-center gap-4 px-6">
+        <header className="sticky top-0 z-50 w-full bg-hero bg-cover bg-center">
+            <nav className="mx-6 flex h-16 items-center gap-4 px-6 ">
 
 
                 <div className="flex items-center justify-start gap-2">
-                    <Link to="/" className="text-3xl font-orbit">
+                    <Link to="/" className="text-3xl font-orbit bg-frosted-silver bg-clip-text text-transparent">
                         Framye
                     </Link>
                 </div>
