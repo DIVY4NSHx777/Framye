@@ -11,27 +11,27 @@ export default function Navbar() {
 
 
                 <div className="flex items-center justify-start gap-2">
-                    <Link to="/" className="text-3xl font-bold">
+                    <Link to="/" className="text-3xl font-orbit">
                         Framye
                     </Link>
                 </div>
 
 
                 <div className="hidden md:flex items-center gap-8 mx-4 text-sm font-medium">
-                    <Link to="/features" className="text-base  text-muted-foreground transition duration-300 ease-in-out hover:text-foreground">
+                    <Link to="/features" className="font-space text-base  text-muted-foreground transition duration-300 ease-in-out hover:text-foreground">
                         Features
                     </Link>
-                    <Link to="/pricing" className="text-base text-muted-foreground transition duration-300 ease-in-out hover:text-foreground">
+                    <Link to="/pricing" className="font-space text-base text-muted-foreground transition duration-300 ease-in-out hover:text-foreground">
                         Pricing
                     </Link>
-                    <Link to="/blog" className="text-base text-muted-foreground transition duration-300 ease-in-out hover:text-foreground">
+                    <Link to="/blog" className="font-space text-base text-muted-foreground transition duration-300 ease-in-out hover:text-foreground">
                         Blog
                     </Link>
                 </div>
                 <div className="flex items-center gap-8 justify-end   w-full">
 
                     <div className="flex items-center gap-4  p-2 px-4  rounded-full  bg-slate-100 border-none dark:bg-accent">
-                        <input type="text" placeholder="Search" className="border-none outline-none bg-transparent" />
+                        <input type="text" placeholder="Search" className="font-space border-none outline-none bg-transparent" />
                         <Search size={18} />
                     </div>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
                             <>
                                 <Link
                                     to="/login"
-                                    className="text-md text-muted-foreground transition duration-300 ease-in-out hover:text-foreground"
+                                    className="font-space text-md text-muted-foreground transition duration-300 ease-in-out hover:text-foreground"
                                 >
                                     Login
                                 </Link>

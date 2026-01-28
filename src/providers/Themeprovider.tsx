@@ -19,7 +19,7 @@ export const ThemeProviderContext = React.createContext<ThemeProviderState | und
 
 export function ThemeProvider({
   children,
-  defaultTheme = "system",
+  defaultTheme = "dark",
   storageKey = "framye-theme",
 }: ThemeProviderProps) {
   const [theme, setThemeState] = React.useState<Theme>(() => {
@@ -55,3 +55,6 @@ export function ThemeProvider({
     </ThemeProviderContext.Provider>
   );
 }
+
+
+
